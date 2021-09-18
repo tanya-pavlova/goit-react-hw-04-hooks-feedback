@@ -1,0 +1,12 @@
+.feedbackItem {
+  display: flex;
+  justify-content: center;
+}
+
+.feedbackItem:not(:last-child) {
+  margin-bottom: 15px;
+}
+
+.feedbackList {
+  padding: 0;
+}

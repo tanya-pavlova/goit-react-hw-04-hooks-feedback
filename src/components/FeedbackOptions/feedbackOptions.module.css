@@ -1,0 +1,17 @@
+.button {
+  width: 100px;
+  height: 40px;
+  background-color: #c8aace;
+  color: rgb(0, 1, 2);
+  border: 1px solid rgb(150, 1, 137);
+  border-radius: 5px;
+}
+.button:not(:last-child) {
+  margin-right: 5px;
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
